@@ -1,31 +1,105 @@
-// bower:scss
-// endbower
+//////////////////////////////////////////////////////////////////////////
+// CSS RESET -- ERIC MEYER ///////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// UNIVERSAL STYLING /////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+	font-size: 1em;
+	line-height: 1.6;
+	color: #505050;
+	vertical-align: top;
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
-    h1 {
-        font-size: 60px;
-        line-height: 1;
-        letter-spacing: -1px;
-    }
+.main-container {
+	width: 90%;
+	margin: 0 auto;
 }
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+//////////////////////////////////////////////////////////////////////////
+// HEADER STYLING ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+.header {
+	padding: 25px 0;
+	margin-bottom: 15px;
+	background-color: #0d1f2b;
+	
+	p {
+		font-family: Roboto;
+		font-weight: 100;
+		font-size: 5em;
+		text-align: center;
+		color: #FFF;
+	}
 }
+//////////////////////////////////////////////////////////////////////////
+// WORDCLOUD STYLING /////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+.wordcloud {
+	width: 70%;
+	float: left;
+}
+
+// SIZE 1 -- LARGEST ////////
+.size1 { font-size: 2.25em; }
+
+// SIZE 2 ///////////////////
+.size2 { font-size: 2em; }
+
+// SIZE 3 ///////////////////
+.size3 { font-size: 1.75em; }
+
+// SIZE 4 ///////////////////
+.size4 { font-size: 1.5em; }
+
+// SIZE 5 ///////////////////
+.size5 { font-size: 1.25em; }
+
+// SIZE 6 -- SMALLEST ///////
+.size6 { font-size: 1em; }
+
+// POSITIVE SENTIMENT ///////
+.positive { color: #006400; }
+
+// NEGATIVE SENTIMENT ///////
+.negative { color: #BE0000; }
+
+//////////////////////////////////////////////////////////////////////////
+// METADATA STYLING //////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+.metadata {
+	width: 30%;
+	float: right;
+}
+
+.metadata-heading {
+	padding: 0 10px;
+	border-bottom: 2px solid #0d1f2b;
+	
+	p {
+		font-size: 1.5em;
+		font-style: italic;
+	}
+}
+
+.metadata-info { padding: 10px; }
