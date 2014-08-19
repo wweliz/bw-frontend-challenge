@@ -9,8 +9,8 @@ TOOLS USED: HTML, CSS/SASS, Bower, NPM, Yeoman, JavaScript, jQuery <br>
 RUNNING THE CODE LOCALLY: <br>
 -- Download the source code from GitHub <br>
 -- Install node.js (if necessary -- available from nodejs.org) <br>
--- From the command line...
+-- From the command line... <br>
    -- 'npm install' <br>
    -- 'bower install jquery' <br>
-   -- 'grunt serve'
+   -- 'grunt serve' <br>
    
