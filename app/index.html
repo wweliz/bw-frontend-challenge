@@ -17,14 +17,7 @@
 		</div>
 
 		<div class="main-container">
-			<div class="wordcloud">
-				<p class="size1 positive">sampleword_1</p>
-				<p class="size2 negative">sampleword_2</p>
-				<p class="size3">sampleword_3</p>
-				<p class="size4">sampleword_4</p>
-				<p class="size5">sampleword_5</p>
-				<p class="size6">sampleword_6</p>
-			</div>
+			<div class="wordcloud"></div>
 
 			<div class="metadata">
 				<div class="metadata-heading">
@@ -32,16 +25,18 @@
 				</div>
 
 				<div class="metadata-info">
-					<p> Total Volume: </p>
-					<p> Positive: </p>
-					<p> Negative: </p>
-					<p> Neutral: </p>
+					<div> <p>Total Volume: </p> <p class="totalvol"></p> </div>  
+					<div> <p>Positive: </p> <p class="pos-sent"></p> </div>
+					<div> <p>Negative: </p> <p class="neg-sent"></p> </div>
+					<div> <p>Neutral: </p> <p class="neu-sent"></p> </div>
 				</div>
 	
 			</div>
 		</div>
 
 		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script src="../bower_components/underscore/underscore.js"></script>
+		<script src="topics.js"></script>
 		<script src="scripts/main.js"></script>
 
 	</body>

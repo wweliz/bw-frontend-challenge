@@ -56,8 +56,14 @@ body {
 // WORDCLOUD STYLING /////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
 .wordcloud {
-	width: 70%;
+	width: 60%;
+	padding: 0 5%;
 	float: left;
+	text-align: center;
+	div {
+		padding: 0 5px;
+		display: inline-block;
+	}
 }
 
 // SIZE 1 -- LARGEST ////////
@@ -79,7 +85,7 @@ body {
 .size6 { font-size: 1em; }
 
 // POSITIVE SENTIMENT ///////
-.positive { color: #006400; }
+.positive { color: #008100; }
 
 // NEGATIVE SENTIMENT ///////
 .negative { color: #BE0000; }
@@ -102,4 +108,7 @@ body {
 	}
 }
 
-.metadata-info { padding: 10px; }
+.metadata-info {
+	padding: 10px;
+	p {display: inline-block;}
+}
